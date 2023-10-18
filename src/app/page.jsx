@@ -1,9 +1,19 @@
-import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><Link href="/produtos/camisa">Camisa</Link></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    <h1>Home</h1>
+
     </>
   )
 }
